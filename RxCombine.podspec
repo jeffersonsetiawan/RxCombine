@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
     
     s.source_files = 'Sources/**/*.swift'
     s.frameworks   = ['Combine']
-    s.dependency 'RxSwift', '~> 6'
-    s.dependency 'RxRelay', '~> 6'
+    s.dependency 'RxSwift', '~> 5'
+    s.dependency 'RxRelay', '~> 5'
 
     s.swift_version = '5.1'
   end
